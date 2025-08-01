@@ -40,10 +40,12 @@ hardhat.config.js # Hardhat configuration file
    ```bash
    npm install
 2. **Compile Smart Contracts**
+   ```bash
    npx hardhat compile
-3. **Run Deployment Script**
+4. **Run Deployment Script**
+   ```bash
    npx hardhat run scripts/deploy.js --network <your-network>
-4. **Interact with Contract**
+6. **Interact with Contract**
    Use MetaMask and your script (e.g., test.js) to deploy and log tender data.
 
 
