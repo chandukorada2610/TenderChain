@@ -1,0 +1,29 @@
+.stylingclass{
+  /* background-color: transparent; */
+  /* background-color: black; */
+  color: black !important;
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 1248px) {
+  .dropdown-basic-button {
+    display: none;
+  }
+  .navbar {
+    display: block;
+  }
+}
+
+@media (max-width: 700px) {
+  .dropdown-basic-button {
+    display: block;
+  }
+  .navbar {
+    display: none;
+  }
+}

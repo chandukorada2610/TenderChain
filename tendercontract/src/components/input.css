@@ -1,0 +1,140 @@
+
+
+
+.tenderinput {
+    box-sizing: border-box;
+    border-radius: 5%;
+    padding: 20px !important;
+}
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+
+input,
+select {
+    /* width: 100%; */
+    padding: 1em;
+    line-height: 1.4;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    transition: all 0.35s ease-in-out;
+}
+
+input:focus {
+    outline: 0;
+    border-color: #bd8200;
+}
+
+select {
+    height: 3.4em;
+    line-height: 2;
+}
+
+.input-group {
+    margin-bottom: 1em;
+}
+
+.input-group:before,
+.input-group:after {
+    content: "";
+    display: table;
+}
+
+.input-group:after {
+    clear: both;
+}
+
+.input-group-icon input {
+    padding-left: 4.4em;
+}
+
+.input-group-icon .input-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.4em;
+    height: 3.4em;
+    line-height: 3.4em;
+    text-align: center;
+    pointer-events: none;
+}
+
+.input-group-icon .input-icon:after {
+    position: absolute;
+    top: 0.6em;
+    bottom: 0.6em;
+    left: 3.4em;
+    display: block;
+    border-right: 1px solid #e5e5e5;
+    content: "";
+    transition: all 0.35s ease-in-out;
+}
+
+
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all 0.3s ease;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 20px; /* Adjust padding as needed */
+    margin: 20px; /* Adjust margin as needed */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 75%; /* Adjust width as needed */
+    height: 90%;
+  }
+  
+  .open-popup {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .poplabel {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .popinput {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .popup button {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 50px;
+    background: #feb900;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+
+
+
+
+h4 {
+    color: #feb900;
+}
+
+@media only screen and (max-width: 540px) {
+    .col-half {
+        width: 100%;
+        padding-right: 0;
+    }
+}
